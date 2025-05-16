@@ -46,7 +46,7 @@ def main():
     # Calculate the average by dividing the sum by the maximum array size.
     average = sum / constants.MAX_ARRAY_SIZE
     # Display the average.
-    print(f"\nThe average is: {average}.")
+    print(f"\nThe average is: {average}.\n")
 
 
 # Check if the special name of the file is __main__.
