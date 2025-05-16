@@ -14,8 +14,8 @@ import random
 
 # Define the main function.
 def main():
-    # Initialize a list of integers to
-    # an empty loop to be used later.
+    # Initialize a list of integers as
+    # an empty list to be used later.
     list_of_int = []
 
     # Use a for loop to loop over the maximum array
@@ -25,7 +25,7 @@ def main():
         # size, 0, to the maximum number size, 100.
         random_number = random.randint(constants.MIN_NUM, constants.MAX_NUM)
 
-        # Populate the list by appending random number.
+        # Populate the list by appending the random number.
         list_of_int.append(random_number)
 
         # Display information about the random
