@@ -14,6 +14,8 @@ import random
 
 # Define the main function.
 def main():
+    # Print an empty space to format text.
+    print("")
     # Initialize a list of integers as
     # an empty list to be used later.
     list_of_int = []
